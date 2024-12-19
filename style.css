@@ -100,7 +100,8 @@ section {
 .dev-texto p {
     font-size: 1.23rem;
     margin-bottom: 2rem;
-    text-align: center ;
+    text-align: left ;
+    line-height: 1.5rem;
 }
 
 .botao-de-contato {
