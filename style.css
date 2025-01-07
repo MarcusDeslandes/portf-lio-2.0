@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --cor-de-fundo: #f0f4f8;
-    --cor-de-texto: #1a202c;
+    --cor-de-fundo: #0B1E26;
+    --cor-de-texto: #BBE2F2;
     --cor-primaria: #4299e1;
-    --cor-secundaria: #03080c;
+    --cor-secundaria: #0B1E26;
     --cor-de-fundo-card: #ffffff;
     --fonte: 'Inter', Arial, sans-serif;
     --transicao: all 0.3s ease;
@@ -24,7 +30,7 @@ h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
-    color: var(--cor-secundaria);
+    color: var(--cor-de-texto);
     font-weight: bold;
 }
 
@@ -65,13 +71,13 @@ nav {
 }
 
 .nav-links a {
-    color: var(--cor-de-texto);
+    color: var(--cor-secundaria);
     text-decoration: none;
     transition: var(--transicao);
 }
 
 .nav-links a:hover {
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 main {
@@ -92,7 +98,7 @@ section {
 .dev-texto h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: var(--cor-secundaria);
+    color: var(--cor-de-texto);
     font-weight: bold;
     margin-top: 7rem;
 }
@@ -102,6 +108,7 @@ section {
     margin-bottom: 2rem;
     text-align: left ;
     line-height: 1.5rem;
+    color: var(--cor-de-texto);
 }
 
 .botao-de-contato {
